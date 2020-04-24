@@ -1,9 +1,9 @@
 {
-    "name": "AvaIre",
+    "name": "Maki",
     "description": "AvaIre is a high quality Music bot, with moderation, interaction, search, administration commands, highly customizable and much more!",
     "keywords": [
         "Heroku",
-        "AvaIre",
+        "Maki",
         "AvaIreBot",
         "Discord Bot",
         "Entertainment",
@@ -17,7 +17,7 @@
     ],
     "website": "https://animu.com.br/",
     "repository": "https://github.com/Umarekawaru/Maki",
-    "logo": "https://imgur.com/H8RCD5F.png",
+    "logo": "https://cdn.discordapp.com/avatars/640401410336227328/44eddda5d31acf64a82a59a6e565a7b9.png?size=128",
     "success_url": "/",
     "scripts": {
       "postdeploy": "java -jar AvaIre.jar & sleep 30s && exit 0"
