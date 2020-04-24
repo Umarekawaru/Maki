@@ -6,5 +6,5 @@ if [ -d ".git" ]; then # After compile remove .git (as it will be replaced) and 
   git clone https://github.com/avaire/website && rm website/Procfile && mv website/{.[!.],}* . && rm -r website/ # Example: avaire/website
   java -jar AvaIre.jar --generate-json-file && mv commandMap.json storage/commandMap.json # Get needed configs and move command file to right directory
 else # If AvaIre.jar isn't compiled
-  git clone https://github.com/avaire/avaire && mv avaire/.git . # Example: avaire/avaire
+  git clone https://github.com/Umarekawaru/Maki && mv avaire/.git . # Example: avaire/avaire
 fi # The third time the build-run.sh is ran, it won't be this script but the one over at the website repo!
